@@ -3,16 +3,19 @@ using TheFinalBattle.Monsters;
 
 namespace TheFinalBattle;
 
-internal class Program
+public  class Program
 {
     private static void Main(string[] args)
     {
+	    Player player = new Player();
 	    Skeleton skelly = new Skeleton();
+
 		Party heroes = new Party
 		{
 			PartyName = "Heroes",
-			PartyMembers = [skelly]
+			PartyMembers = [player]
 		};
+
 		Party monsters = new Party
 		{
 			PartyName = "Monster",

@@ -2,11 +2,11 @@
 
 namespace TheFinalBattle.Actions;
 
-public class Nothing : Action
+public class Punch : Action
 {
-	public Nothing()
+	public Punch()
 	{
-		MoveName = "NOTHING";
+		MoveName = "PUNCH";
 		Effects = ["None"];
 	}
 

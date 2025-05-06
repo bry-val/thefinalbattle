@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheFinalBattle.Classes;
+﻿namespace TheFinalBattle.Classes;
 
 internal class Party
 {
@@ -17,6 +11,7 @@ internal class Party
 		foreach (var member in PartyMembers!)
 		{
 			member.Turn();
+			Console.WriteLine();
 		}
 		
 	}

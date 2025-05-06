@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TheFinalBattle.Actions;
+﻿using TheFinalBattle.Actions;
 using TheFinalBattle.Classes;
-using Action = TheFinalBattle.Classes.Action;
 
 namespace TheFinalBattle.Monsters;
 internal class Skeleton : Character
@@ -19,7 +13,7 @@ internal class Skeleton : Character
 	public override void Turn()
 	{
 		Console.WriteLine($"It is {Name}'s turn...");
-		Console.WriteLine($"{Name} did {Moves![0].MoveName}.\n");
+		Console.WriteLine($"{Name} did {Moves![0].MoveName}.");
 	}
 
 
